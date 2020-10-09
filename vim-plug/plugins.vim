@@ -41,6 +41,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   Plug 'tpope/vim-commentary'
 
+  Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
+
 call plug#end()
 
 autocmd VimEnter *
