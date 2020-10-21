@@ -43,6 +43,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
   Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
 
+  Plug 'gotcha/vimpdb'
+
 call plug#end()
 
 autocmd VimEnter *

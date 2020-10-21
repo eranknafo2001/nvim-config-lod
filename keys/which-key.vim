@@ -48,8 +48,8 @@ let g:which_key_map['e'] = 'explorer'
 map <leader>h <C-W>s
 let g:which_key_map['h'] = 'split below'
 
-nmap <leader>n :let @/ = ""<cr>
-vmap <leader>n <esc>:let @/ = ""<cr>gv
+map <leader>n :noh<cr>
+vmap <leader>n <esc>:noh<cr>gv
 let g:which_key_map['n'] = 'no highlight'
 
 map <leader>p :Files<cr>
